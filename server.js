@@ -29,9 +29,9 @@ app.all('*', (req, res, next) => {
 });
 app.use(ErrorHandler);
 
-const port = process.env.APP_PORT;
+const port = process.env.APP_PORT || 3000;
 const server = app.listen(port, () => {
-    console.log('server is running on port 5000');
+    console.log(`server is running on port ${port}`);
 });
 
 // KẾT NỐI SOCKET
