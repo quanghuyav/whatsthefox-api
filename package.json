@@ -1,0 +1,25 @@
+{
+    "name": "back-end",
+    "version": "1.0.0",
+    "description": "WhatsFun project",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+        "startDev": "nodemon server.js",
+        "start": "node server.js"
+    },
+    "author": "BHTN",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^6.8.0",
+        "socket.io": "^4.5.4"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
+}
